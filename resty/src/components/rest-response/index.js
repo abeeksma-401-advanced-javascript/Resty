@@ -2,7 +2,7 @@ import React from 'react';
 
 const Response = props => {
   if(!props.response){
-    return (<div>Please enter a URL spell and cast!</div>)
+    return (<div>Enter URL then go</div>)
   }
 
   return (
